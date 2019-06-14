@@ -318,6 +318,10 @@ if ("drat" %in% installed.packages() == FALSE) {
     install_version("drat", version = "0.1.5", type = "source")
 }
 
+if ("godmode" %in% installed.packages() == FALSE) {
+    remotes::install_github("miraisolutions/godmode")
+}
+
 drat::addRepo(c("OHDSI", "cloudyr"))
 
 # DO NOT CHANGE ORDER OF THE FOLLOWING INSTRUCTIONS
@@ -359,12 +363,11 @@ if ("MethodEvaluation" %in% installed.packages() == FALSE) {
 if ("PatientLevelPrediction" %in% installed.packages() == FALSE) {
     install_github("OHDSI/PatientLevelPrediction", ref = "v3.0.1")
 }
+if ("PythonInR" %in% installed.packages() == FALSE) {
+    install_bitbucket("Floooo/PythonInR")
+}
 if ("keras" %in% installed.packages() == FALSE) {
     install_github("rstudio/keras")
 }
 library(keras)
 install_keras()
-
-if ("PythonInR" %in% installed.packages() == FALSE) {
-    install_github("Floooo/PythonInR")
-}
