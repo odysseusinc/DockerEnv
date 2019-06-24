@@ -315,25 +315,25 @@ if ("zip" %in% installed.packages() == FALSE) {
 }
 
 if ("maptools" %in% installed.packages() == FALSE) {
-    install.packages('maptools')
-}
-if ("raster" %in% installed.packages() == FALSE) {
-    install.packages('raster')
-}
-if ("rgeos" %in% installed.packages() == FALSE) {
-    install.packages('rgeos')
-}
-if ("jqr" %in% installed.packages() == FALSE) {
-    install.packages('jqr')
-}
-if ("geojson" %in% installed.packages() == FALSE) {
-    install.packages('geojson')
-}
-if ("KernSmooth" %in% installed.packages() == FALSE) {
-    install.packages('KernSmooth')
+    install_version('maptools', version = "0.9-5")
 }
 if ("sp" %in% installed.packages() == FALSE) {
-    install.packages('sp')
+    install_version('sp', version = "1.3-1")
+}
+if ("raster" %in% installed.packages() == FALSE) {
+    install_version('raster', version = "2.9-5")
+}
+if ("rgeos" %in% installed.packages() == FALSE) {
+    install_version('rgeos', version = "0.4-3")
+}
+if ("jqr" %in% installed.packages() == FALSE) {
+    install_version('jqr', version = "1.1.0")
+}
+if ("geojson" %in% installed.packages() == FALSE) {
+    install_version('geojson', version = "0.3.2")
+}
+if ("KernSmooth" %in% installed.packages() == FALSE) {
+    install_version('KernSmooth', version = "2.23-15")
 }
 
 if ("drat" %in% installed.packages() == FALSE) {
