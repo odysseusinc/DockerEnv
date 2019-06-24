@@ -74,3 +74,13 @@ Changes:
 docker build -t odysseusinc/r-env:1.0.6 .
 docker push odysseusinc/r-env:1.0.6
 ```
+
+## 1.0.7
+
+Changes:
+1. Added geospatial libraries
+
+```bash
+docker build -t odysseusinc/r-env:1.0.7 .
+docker push odysseusinc/r-env:1.0.7
+```

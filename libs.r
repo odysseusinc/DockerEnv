@@ -314,6 +314,28 @@ if ("zip" %in% installed.packages() == FALSE) {
     install_version("zip", version = "2.0.0", type = "source")
 }
 
+if ("maptools" %in% installed.packages() == FALSE) {
+    install.packages('maptools')
+}
+if ("raster" %in% installed.packages() == FALSE) {
+    install.packages('raster')
+}
+if ("rgeos" %in% installed.packages() == FALSE) {
+    install.packages('rgeos')
+}
+if ("jqr" %in% installed.packages() == FALSE) {
+    install.packages('jqr')
+}
+if ("geojson" %in% installed.packages() == FALSE) {
+    install.packages('geojson')
+}
+if ("KernSmooth" %in% installed.packages() == FALSE) {
+    install.packages('KernSmooth')
+}
+if ("sp" %in% installed.packages() == FALSE) {
+    install.packages('sp')
+}
+
 if ("drat" %in% installed.packages() == FALSE) {
     install_version("drat", version = "0.1.5", type = "source")
 }
