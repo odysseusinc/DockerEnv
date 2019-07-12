@@ -346,7 +346,7 @@ if ("CohortMethod" %in% installed.packages() == FALSE) {
     install_github("OHDSI/CohortMethod", ref = "v3.0.2")
 }
 if ("DatabaseConnector" %in% installed.packages() == FALSE) {
-    install_github("OHDSI/DatabaseConnector", ref = "v2.3.0")
+    install_github("OHDSI/DatabaseConnector", ref = "develop")
 }
 if ("EmpiricalCalibration" %in% installed.packages() == FALSE) {
     install_github("OHDSI/EmpiricalCalibration", ref = "v1.4.0")
@@ -358,7 +358,7 @@ if ("OhdsiRTools" %in% installed.packages() == FALSE) {
     install_github("OHDSI/OhdsiRTools", ref = "v1.5.5")
 }
 if ("SqlRender" %in% installed.packages() == FALSE) {
-    install_github("OHDSI/SqlRender", ref = "v1.6.0")
+    install_github("OHDSI/SqlRender", ref = "v1.6.2")
 }
 if ("Cyclops" %in% installed.packages() == FALSE) {
     install_github("OHDSI/Cyclops", ref = "v2.0.2")
