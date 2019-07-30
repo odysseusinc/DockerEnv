@@ -78,9 +78,30 @@ docker push odysseusinc/r-env:1.0.6
 ## 1.0.7
 
 Changes:
+1. Added geospatial libraries
+
+```bash
+docker build -t odysseusinc/r-env:1.0.7 .
+docker push odysseusinc/r-env:1.0.7
+```
+
+## 1.0.8
+
+Changes:
+1. DatabaseConnector updated to develop branch resolving RedShift issues
+1. SqlRender updated to 1.6.2 release to conform DatabaseConnector dependencies
+
+```bash
+docker build -t odysseusinc/r-env:1.0.8 .
+docker push odysseusinc/r-env:1.0.8
+```
+
+## 1.0.9
+
+Changes:
 1. Added missing libraries for PLE
 
 ```sh
-docker build -t odysseusinc/r-env:1.0.7 .
-docker push odysseusinc/r-env:1.0.7
+docker build -t odysseusinc/r-env:1.0.9 .
+docker push odysseusinc/r-env:1.0.9
 ```

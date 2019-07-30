@@ -314,6 +314,28 @@ if ("zip" %in% installed.packages() == FALSE) {
     install_version("zip", version = "2.0.0", type = "source")
 }
 
+if ("maptools" %in% installed.packages() == FALSE) {
+    install_version('maptools', version = "0.9-5")
+}
+if ("sp" %in% installed.packages() == FALSE) {
+    install_version('sp', version = "1.3-1")
+}
+if ("raster" %in% installed.packages() == FALSE) {
+    install_version('raster', version = "2.9-5", repos = c('https://cran.cnr.berkeley.edu/'))
+}
+if ("rgeos" %in% installed.packages() == FALSE) {
+    install_version('rgeos', version = "0.4-3", repos = c('https://cran.cnr.berkeley.edu/'))
+}
+if ("jqr" %in% installed.packages() == FALSE) {
+    install_version('jqr', version = "1.1.0", repos = c('https://cran.cnr.berkeley.edu/'))
+}
+if ("geojson" %in% installed.packages() == FALSE) {
+    install_version('geojson', version = "0.3.2", repos = c('https://cran.cnr.berkeley.edu/'))
+}
+if ("KernSmooth" %in% installed.packages() == FALSE) {
+    install_version('KernSmooth', version = "2.23-15", repos = c('https://cran.cnr.berkeley.edu/'))
+}
+
 if ("drat" %in% installed.packages() == FALSE) {
     install_version("drat", version = "0.1.5", type = "source")
 }
@@ -334,7 +356,7 @@ if ("CohortMethod" %in% installed.packages() == FALSE) {
     install_github("OHDSI/CohortMethod", ref = "v3.0.2")
 }
 if ("DatabaseConnector" %in% installed.packages() == FALSE) {
-    install_github("OHDSI/DatabaseConnector", ref = "v2.3.0")
+    install_github("OHDSI/DatabaseConnector", ref = "96a33f2") #develop
 }
 if ("DatabaseConnectorJars" %in% installed.packages() == FALSE) {
     install_github("OHDSI/DatabaseConnectorJars", ref = "v1.1.0")
@@ -349,7 +371,7 @@ if ("OhdsiRTools" %in% installed.packages() == FALSE) {
     install_github("OHDSI/OhdsiRTools", ref = "v1.5.5")
 }
 if ("SqlRender" %in% installed.packages() == FALSE) {
-    install_github("OHDSI/SqlRender", ref = "v1.6.0")
+    install_github("OHDSI/SqlRender", ref = "v1.6.2")
 }
 if ("Cyclops" %in% installed.packages() == FALSE) {
     install_github("OHDSI/Cyclops", ref = "v2.0.2")
