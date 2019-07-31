@@ -340,13 +340,26 @@ if ("drat" %in% installed.packages() == FALSE) {
     install_version("drat", version = "0.1.5", type = "source")
 }
 
+if ("godmode" %in% installed.packages() == FALSE) {
+    remotes::install_github("miraisolutions/godmode")
+}
+
 drat::addRepo(c("OHDSI", "cloudyr"))
 
+# DO NOT CHANGE ORDER OF THE FOLLOWING INSTRUCTIONS
+
+# Do not use install_github to install BigKnn library
+if ("BigKnn" %in% installed.packages() == FALSE) {
+    install.packages("BigKnn")
+}
 if ("CohortMethod" %in% installed.packages() == FALSE) {
     install_github("OHDSI/CohortMethod", ref = "v3.0.2")
 }
 if ("DatabaseConnector" %in% installed.packages() == FALSE) {
     install_github("OHDSI/DatabaseConnector", ref = "96a33f2") #develop
+}
+if ("DatabaseConnectorJars" %in% installed.packages() == FALSE) {
+    install_github("OHDSI/DatabaseConnectorJars", ref = "v1.1.0")
 }
 if ("EmpiricalCalibration" %in% installed.packages() == FALSE) {
     install_github("OHDSI/EmpiricalCalibration", ref = "v1.4.0")
@@ -372,3 +385,11 @@ if ("MethodEvaluation" %in% installed.packages() == FALSE) {
 if ("PatientLevelPrediction" %in% installed.packages() == FALSE) {
     install_github("OHDSI/PatientLevelPrediction", ref = "v3.0.1")
 }
+if ("PythonInR" %in% installed.packages() == FALSE) {
+    install_bitbucket("Floooo/PythonInR")
+}
+if ("keras" %in% installed.packages() == FALSE) {
+    install_github("rstudio/keras")
+}
+library(keras)
+install_keras()

@@ -95,3 +95,13 @@ Changes:
 docker build -t odysseusinc/r-env:1.0.8 .
 docker push odysseusinc/r-env:1.0.8
 ```
+
+## 1.0.9
+
+Changes:
+1. Added missing libraries for PLE
+
+```sh
+docker build -t odysseusinc/r-env:1.0.9 .
+docker push odysseusinc/r-env:1.0.9
+```
