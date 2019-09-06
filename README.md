@@ -105,3 +105,13 @@ Changes:
 docker build -t odysseusinc/r-env:1.0.9 .
 docker push odysseusinc/r-env:1.0.9
 ```
+
+## 1.0.9
+
+Changes:
+1. SqlRender updated to develop branch resolving BigQuery issues
+
+```sh
+docker build -t odysseusinc/r-env:1.0.10 .
+docker push odysseusinc/r-env:1.0.10
+```

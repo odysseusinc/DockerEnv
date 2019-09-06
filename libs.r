@@ -371,7 +371,7 @@ if ("OhdsiRTools" %in% installed.packages() == FALSE) {
     install_github("OHDSI/OhdsiRTools", ref = "v1.5.5")
 }
 if ("SqlRender" %in% installed.packages() == FALSE) {
-    install_github("OHDSI/SqlRender", ref = "v1.6.2")
+    install_github("OHDSI/SqlRender", ref = "6c74347")
 }
 if ("Cyclops" %in% installed.packages() == FALSE) {
     install_github("OHDSI/Cyclops", ref = "v2.0.2")
