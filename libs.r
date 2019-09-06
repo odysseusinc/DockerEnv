@@ -116,7 +116,7 @@ install_version('geojson', version = "0.3.2", repos = c('https://cran.cnr.berkel
 install_version('KernSmooth', version = "2.23-15", repos = c('https://cran.cnr.berkeley.edu/'), upgrade_dependencies = FALSE)
 install_version("drat", version = "0.1.5", type = "source", upgrade_dependencies = FALSE)
 remotes::install_github("miraisolutions/godmode", upgrade_dependencies = FALSE)
-drat::addRepo(c("OHDSI", "cloudyr"), upgrade_dependencies = FALSE)
+drat::addRepo(c("OHDSI", "cloudyr"))
 
 # DO NOT CHANGE ORDER OF THE FOLLOWING INSTRUCTIONS
 # Do not use install_github to install BigKnn library
