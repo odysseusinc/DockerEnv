@@ -1,4 +1,4 @@
-install.packages("devtools", upgrade_dependencies = FALSE)
+install.packages("devtools")
 library("devtools")
 
 install_version("assertthat", version = "0.2.1", type = "source", upgrade_dependencies = FALSE)
@@ -120,7 +120,7 @@ drat::addRepo(c("OHDSI", "cloudyr"), upgrade_dependencies = FALSE)
 
 # DO NOT CHANGE ORDER OF THE FOLLOWING INSTRUCTIONS
 # Do not use install_github to install BigKnn library
-install.packages("BigKnn", upgrade_dependencies = FALSE)
+install.packages("BigKnn")
 install_github("OHDSI/CohortMethod", ref = "v3.0.2", upgrade_dependencies = FALSE)
 install_github("OHDSI/DatabaseConnector", ref = "96a33f2") #develop
 install_github("OHDSI/DatabaseConnectorJars", ref = "v1.1.0", upgrade_dependencies = FALSE)
