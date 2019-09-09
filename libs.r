@@ -130,7 +130,7 @@ install_github("OHDSI/OhdsiRTools", ref = "v1.5.5", upgrade_dependencies = FALSE
 install_github("OHDSI/SqlRender", ref = "6c74347", upgrade_dependencies = FALSE)
 install_github("OHDSI/Cyclops", ref = "v2.0.2", upgrade_dependencies = FALSE)
 install_github("OHDSI/OhdsiSharing", ref = "v0.1.3", upgrade_dependencies = FALSE)
-install_github("OHDSI/MethodEvaluation", ref = "v1.0.1", upgrade_dependencies = FALSE)
+install_github("OHDSI/MethodEvaluation", ref = "98ae26e", upgrade_dependencies = FALSE)
 install_github("OHDSI/PatientLevelPrediction", ref = "v3.0.1", upgrade_dependencies = FALSE)
 install_bitbucket("Floooo/PythonInR", upgrade_dependencies = FALSE)
 install_github("rstudio/keras", upgrade_dependencies = FALSE)
