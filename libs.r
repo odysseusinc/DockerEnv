@@ -27,6 +27,7 @@ install_version("ffbase", version = "0.12.7", type = "source", upgrade_dependenc
 install_version("formatR", version = "1.6", type = "source", upgrade_dependencies = FALSE)
 install_version("futile.logger", version = "1.4.3", type = "source", upgrade_dependencies = FALSE)
 install_version("futile.options", version = "1.0.1", type = "source", upgrade_dependencies = FALSE)
+install_github('thomasp85/systemfonts', ref = "37ed27b", upgrade = "never")
 install_github("davidgohel/gdtools", ref = "8a94fa3", upgrade = "never")
 install_version("ggplot2", version = "3.1.0", type = "source", upgrade_dependencies = FALSE)
 install_version("git2r", version = "0.24.0", type = "source", upgrade_dependencies = FALSE)
