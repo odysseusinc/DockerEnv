@@ -1,3 +1,4 @@
+library("devtools")
 install_github('thomasp85/systemfonts', ref = "37ed27b", upgrade = "never")
 install_github("davidgohel/gdtools", ref = "8a94fa3", upgrade = "never")
 install_version("ggplot2", version = "3.1.0", type = "source", upgrade_dependencies = FALSE)

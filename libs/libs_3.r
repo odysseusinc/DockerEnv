@@ -1,3 +1,4 @@
+library("devtools")
 install_version("openxlsx", version = "4.1.0", type = "source", upgrade_dependencies = FALSE)
 install_version("pack", version = "0.1-1", type = "source", upgrade_dependencies = FALSE)
 install_version("packrat", version = "0.5.0", type = "source", upgrade_dependencies = FALSE)

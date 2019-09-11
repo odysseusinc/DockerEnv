@@ -1,3 +1,5 @@
+library("devtools")
+drat::addRepo(c("OHDSI", "cloudyr"))
 # DO NOT CHANGE ORDER OF THE FOLLOWING INSTRUCTIONS
 # Do not use install_github to install BigKnn library
 install.packages("BigKnn")
