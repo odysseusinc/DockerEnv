@@ -1,4 +1,5 @@
 library("devtools")
+install_version("tensorflow", version = "1.14.0", type = "source", upgrade_dependencies = FALSE)
 install_version("yaml", version = "2.2.0", type = "source", upgrade_dependencies = FALSE)
 install_version("zip", version = "2.0.0", type = "source", upgrade_dependencies = FALSE)
 install_version('maptools', version = "0.9-5", upgrade_dependencies = FALSE)
