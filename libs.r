@@ -27,7 +27,7 @@ install_version("ffbase", version = "0.12.7", type = "source", upgrade_dependenc
 install_version("formatR", version = "1.6", type = "source", upgrade_dependencies = FALSE)
 install_version("futile.logger", version = "1.4.3", type = "source", upgrade_dependencies = FALSE)
 install_version("futile.options", version = "1.0.1", type = "source", upgrade_dependencies = FALSE)
-install_version("davidgohel/gdtools", version = "0.2.0", upgrade_dependencies = FALSE)
+install_version("gdtools", version = "0.2.0", upgrade_dependencies = FALSE)
 install_version("ggplot2", version = "3.1.0", type = "source", upgrade_dependencies = FALSE)
 install_version("git2r", version = "0.24.0", type = "source", upgrade_dependencies = FALSE)
 install_version("glue", version = "1.3.0", type = "source", upgrade_dependencies = FALSE)
