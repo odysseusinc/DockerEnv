@@ -106,10 +106,12 @@ docker build -t odysseusinc/r-env:1.0.9 .
 docker push odysseusinc/r-env:1.0.9
 ```
 
-## 1.0.9
+## 1.0.10
 
 Changes:
 1. SqlRender updated to develop branch resolving BigQuery issues
+1. DatabaseConnector updated to develop branch resolving BigQuery issues
+1. MethodEvaluation updated to develop branch which resolves issue for DBs w/o real temporary tables support
 
 ```sh
 docker build -t odysseusinc/r-env:1.0.10 .
