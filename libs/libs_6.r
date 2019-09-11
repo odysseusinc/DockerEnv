@@ -16,7 +16,7 @@ install_github("OHDSI/OhdsiSharing", ref = "v0.1.3", upgrade = "never")
 install_github("OHDSI/MethodEvaluation", ref = "98ae26e", upgrade = "never")
 install_github("OHDSI/PatientLevelPrediction", ref = "v3.0.1", upgrade = "never")
 install_bitbucket("Floooo/PythonInR", upgrade = "never")
-install_github("rstudio/keras", upgrade = "never")
+install_github("rstudio/keras", ref = "95ea0b5", upgrade = "never")
 
 library(keras)
 install_keras()
