@@ -11,22 +11,22 @@ ENV USESPECIALPYTHONVERSION=python3.5
 
 # Copy and install one-by-one to take advantage of Docker layers
 
-COPY libs_1.r /libs/libs_1.r
+COPY /libs/libs_1.r /libs/libs_1.r
 RUN Rscript /libs/libs_1.r
 
-COPY libs_2.r /libs/libs_2.r
+COPY /libs/libs_2.r /libs/libs_2.r
 RUN Rscript /libs/libs_2.r
 
-COPY libs_3.r /libs/libs_3.r
+COPY /libs/libs_3.r /libs/libs_3.r
 RUN Rscript /libs/libs_3.r
 
-COPY libs_4.r /libs/libs_4.r
+COPY /libs/libs_4.r /libs/libs_4.r
 RUN Rscript /libs/libs_4.r
 
-COPY libs_5.r /libs/libs_5.r
+COPY /libs/libs_5.r /libs/libs_5.r
 RUN Rscript /libs/libs_5.r
 
-COPY libs_6.r /libs/libs_6.r
+COPY /libs/libs_6.r /libs/libs_6.r
 RUN Rscript /libs/libs_6.r
 
 WORKDIR "/workdir"
