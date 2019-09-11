@@ -9,7 +9,13 @@ RUN pip3  install --upgrade pip
 
 ENV USESPECIALPYTHONVERSION=python3.5
 
-COPY libs.r libs.r
-RUN Rscript libs.r
+ADD libs /libs/
+
+RUN Rscript /libs/libs_1.r
+RUN Rscript /libs/libs_2.r
+RUN Rscript /libs/libs_3.r
+RUN Rscript /libs/libs_4.r
+RUN Rscript /libs/libs_5.r
+RUN Rscript /libs/libs_6.r
 
 WORKDIR "/workdir"
