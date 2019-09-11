@@ -19,7 +19,7 @@ install_version("tidyr", version = "0.8.2", type = "source", upgrade_dependencie
 install_version("tidyselect", version = "0.2.5", type = "source", upgrade_dependencies = FALSE)
 install_version("uuid", version = "0.1-2", type = "source", upgrade_dependencies = FALSE)
 install_version("viridisLite", version = "0.3.0", type = "source", upgrade_dependencies = FALSE)
-install_version("whisker", version = "0.4", type = "source", upgrade_dependencies = FALSE)
+install_github("edwindj/whisker", ref = "6982ab7", upgrade = "never")
 install_version("withr", version = "2.1.2", type = "source", upgrade_dependencies = FALSE)
 install_version("xgboost", version = "0.81.0.1", type = "source", upgrade_dependencies = FALSE)
 install_version("XML", version = "3.98-1.17", type = "source", upgrade_dependencies = FALSE)
