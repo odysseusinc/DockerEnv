@@ -4,7 +4,7 @@ drat::addRepo(c("OHDSI", "cloudyr"))
 # Do not use install_github to install BigKnn library
 install.packages("BigKnn")
 install_github("OHDSI/CohortMethod", ref = "v3.0.2", upgrade = "never")
-install_github("OHDSI/DatabaseConnectorJars", ref = "v1.1.0", upgrade = "never")
+install_github("OHDSI/DatabaseConnectorJars", ref = "e4a152e", upgrade = "never") # v1.1.0
 install_github("OHDSI/DatabaseConnector", ref = "6cbd41f", upgrade = "never")
 install_github("OHDSI/EmpiricalCalibration", ref = "v1.4.0", upgrade = "never")
 install_github("OHDSI/FeatureExtraction", ref = "v2.2.2", upgrade = "never")
