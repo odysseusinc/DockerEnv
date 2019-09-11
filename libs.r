@@ -29,8 +29,7 @@ devtools::install_version("ffbase", version = "0.12.7", type = "source", upgrade
 devtools::install_version("formatR", version = "1.6", type = "source", upgrade_dependencies = FALSE)
 devtools::install_version("futile.logger", version = "1.4.3", type = "source", upgrade_dependencies = FALSE)
 devtools::install_version("futile.options", version = "1.0.1", type = "source", upgrade_dependencies = FALSE)
-# gdtools was moved to archive and cannot be installed via install_version
-devtools::install_github("davidgohel/gdtools") # 0.1.8
+devtools::install_version("davidgohel/gdtools", version = "0.2.0", upgrade_dependencies = FALSE)
 devtools::install_version("ggplot2", version = "3.1.0", type = "source", upgrade_dependencies = FALSE)
 devtools::install_version("git2r", version = "0.24.0", type = "source", upgrade_dependencies = FALSE)
 devtools::install_version("glue", version = "1.3.0", type = "source", upgrade_dependencies = FALSE)
@@ -77,7 +76,7 @@ devtools::install_version("RCurl", version = "1.95-4.12", type = "source", upgra
 devtools::install_version("readr", version = "1.3.1", type = "source", upgrade_dependencies = FALSE)
 # ReporteRsjars was moved to archive and cannot be installed via install_version.
 # This library MUST be installed before "ReporteRs" library
-devtools::install_github("davidgohel/ReporteRsjars") # 0.0.4
+devtools::install_github("davidgohel/ReporteRsjars", upgrade_dependencies = FALSE) # 0.0.4
 devtools::install_version("ReporteRs", version = "0.8.10", type = "source", upgrade_dependencies = FALSE)
 devtools::install_version("reshape2", version = "1.4.3", type = "source", upgrade_dependencies = FALSE)
 devtools::install_version("rJava", version = "0.9-11", type = "source", upgrade_dependencies = FALSE)
