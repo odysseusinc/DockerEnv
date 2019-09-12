@@ -6,7 +6,7 @@ install.packages("BigKnn")
 install_github("rstudio/reticulate", ref = "f17091b", upgrade = "never") # 1.13 per https://github.com/rstudio/keras/issues/869
 install_github("OHDSI/CohortMethod", ref = "v3.0.2", upgrade = "never")
 install_github("OHDSI/DatabaseConnectorJars", ref = "e4a152e", upgrade = "never") # v1.1.0
-install_github("OHDSI/DatabaseConnector", ref = "6cbd41f", upgrade = "never")
+install_github("OHDSI/DatabaseConnector", ref = "748eb43", upgrade = "never")
 install_github("OHDSI/EmpiricalCalibration", ref = "v1.4.0", upgrade = "never")
 install_github("OHDSI/FeatureExtraction", ref = "v2.2.2", upgrade = "never")
 install_github("OHDSI/OhdsiRTools", ref = "v1.5.5", upgrade = "never")
