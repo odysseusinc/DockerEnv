@@ -1,6 +1,7 @@
 library("devtools")
 install_version("RJDBC", version = "0.2-7.1", type = "source", upgrade_dependencies = FALSE)
 install_version("RJSONIO", version = "1.3-1.1", type = "source", upgrade_dependencies = FALSE)
+install_version("rjson", version = "0.2.20", type = "source", upgrade_dependencies = FALSE)
 install_version("rlang", version = "0.3.3", type = "source", upgrade_dependencies = FALSE)
 install_version("rstudioapi", version = "0.9.0", type = "source", upgrade_dependencies = FALSE)
 install_version("rvg", version = "0.1.9", type = "source", upgrade_dependencies = FALSE)
