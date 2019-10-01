@@ -117,3 +117,13 @@ Changes:
 docker build -t odysseusinc/r-env:1.0.10 .
 docker push odysseusinc/r-env:1.0.10
 ```
+
+## 1.0.11
+
+Changes:
+1. Changed versions of SqlRender and DatabaseConnector to support hive dialect
+
+```sh
+docker build -t odysseusinc/r-env:1.0.11-hive_gs .
+docker push odysseusinc/r-env:1.0.11-hive_gs
+```
