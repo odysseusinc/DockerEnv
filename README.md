@@ -117,3 +117,13 @@ Changes:
 docker build -t odysseusinc/r-env:1.0.10 .
 docker push odysseusinc/r-env:1.0.10
 ```
+
+## 1.0.11
+
+Changes:
+1. Python 3.6 was added as requied by Prediction analyses
+
+```bash
+docker build -t odysseusinc/r-env:1.0.11 .
+docker push odysseusinc/r-env:1.0.11
+```
