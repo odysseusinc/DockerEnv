@@ -18,7 +18,7 @@ install_version("DBI", version = "1.0.0", type = "source", upgrade_dependencies 
 install_version("diagram", version = "1.6.4", type = "source", upgrade_dependencies = FALSE)
 install_version("dichromat", version = "2.0-0", type = "source", upgrade_dependencies = FALSE)
 install_version("digest", version = "0.6.18", type = "source", upgrade_dependencies = FALSE)
-install_version("dplyr", version = "0.8.1", type = "source", upgrade_dependencies = FALSE)
+install_version("dplyr", version = "0.8.3", type = "source", upgrade_dependencies = FALSE)
 install_version("DT", version = "0.5", type = "source", upgrade_dependencies = FALSE)
 install_version("evaluate", version = "0.13", type = "source", upgrade_dependencies = FALSE)
 install_version("fastmatch", version = "1.1-0", type = "source", upgrade_dependencies = FALSE)
