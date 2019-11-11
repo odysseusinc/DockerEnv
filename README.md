@@ -127,3 +127,13 @@ Changes:
 docker build -t odysseusinc/r-env:1.0.11 .
 docker push odysseusinc/r-env:1.0.11
 ```
+
+## 1.0.12
+
+Changes:
+1. rlist was added for Cohort Pathways analysis
+
+```bash
+docker build -t odysseusinc/r-env:1.0.12 .
+docker push odysseusinc/r-env:1.0.12
+```
