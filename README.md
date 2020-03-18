@@ -121,7 +121,7 @@ docker push odysseusinc/r-env:1.0.10
 ## 1.0.11
 
 Changes:
-1. Python 3.6 was added as requied by Prediction analyses
+1. Python 3.6 was added as required by Prediction analyses
 
 ```bash
 docker build -t odysseusinc/r-env:1.0.11 .
@@ -134,6 +134,6 @@ Changes:
 1. Changed versions of SqlRender and DatabaseConnector to support hive dialect
 
 ```sh
-docker build -t odysseusinc/r-env:1.0.12-hive_gs .
-docker push odysseusinc/r-env:1.0.12-hive_gs
+docker build -t odysseusinc/r-env:1.0.12 .
+docker push odysseusinc/r-env:1.0.12
 ```
