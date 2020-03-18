@@ -21,6 +21,7 @@ RUN python3 -m pip install virtualenv && \
     python3 -m pip install keras
 
 ENV USESPECIALPYTHONVERSION=python3.6
+RUN apt-get install sshpass
 
 # Copy and install one-by-one to take advantage of Docker layers
 
