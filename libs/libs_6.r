@@ -18,7 +18,7 @@ install_github("OHDSI/OhdsiSharing", ref = "v0.1.3", upgrade = "never")
 install_github("OHDSI/ROhdsiWebApi", ref = "v0.0.3", upgrade = "never")
 install_github("OHDSI/CohortDiagnostics", ref = "1e65c04", upgrade = "never")
 install_github("OHDSI/MethodEvaluation", ref = "98ae26e", upgrade = "never")
-install_github("OHDSI/PatientLevelPrediction", ref = "005c134", upgrade = "never")
+install_github("OHDSI/PatientLevelPrediction", ref = "master", upgrade = "never")
 install_bitbucket("Floooo/PythonInR", upgrade = "never")
 install_github("rstudio/keras", ref = "95ea0b5", upgrade = "never")
 
