@@ -1,5 +1,5 @@
 library("devtools")
-install_github("rstudio/tensorflow", ref = "2.2.0", upgrade = "never")
+install_github("rstudio/tensorflow", ref = "1.14.0", upgrade = "never")
 install_version("yaml", version = "2.2.1", type = "source", upgrade_dependencies = FALSE)
 install_version("zip", version = "2.0.4", type = "source", upgrade_dependencies = FALSE)
 install_version('maptools', version = "0.9-5", upgrade_dependencies = FALSE)
