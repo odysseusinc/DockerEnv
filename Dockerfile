@@ -1,4 +1,6 @@
-FROM odysseusinc/r-java:3.5.3
+FROM odysseusinc/r-java:3.6.3
+
+ARG  GITHUB_PAT
 
 RUN apt -yq update && DEBIAN_FRONTEND=noninteractive apt install -yq libpq-dev build-essential git-all libcurl4-openssl-dev libssl-dev libxml2-dev curl\
  libxml2-dev libdigest-hmac-perl libcairo2-dev python-dev libgeos-dev libprotobuf-dev protobuf-compiler libjq-dev python-pip-whl sudo
@@ -21,6 +23,15 @@ RUN python3 -m pip install virtualenv && \
     python3 -m pip install keras
 
 ENV USESPECIALPYTHONVERSION=python3.6
+
+# Set R environment settings
+COPY /rsettings/repos.sh /rsettings/repos.sh
+RUN chmod +x /rsettings/repos.sh
+RUN /rsettings/repos.sh
+
+COPY /rsettings/github_authentication.sh /rsettings/github_authentication.sh
+RUN chmod +x /rsettings/github_authentication.sh
+RUN /rsettings/github_authentication.sh $GITHUB_PAT
 
 # Copy and install one-by-one to take advantage of Docker layers
 
