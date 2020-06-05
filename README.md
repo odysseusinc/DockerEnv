@@ -2,6 +2,25 @@
  
 >Type to get docker build
 
+## 1.0.14
+
+```bash
+# To generate {GITHUB_PAT} 
+# - Open URL 'https://github.com/settings/tokens/new?scopes=repo,gist&description=R:GITHUB_PAT
+# - Generate token and put it in docker build command
+docker build --build-arg GITHUB_PAT={GITHUB_PAT} -t odysseusinc/r-env:1.0.14 .
+docker build \
+-t odysseusinc/r-env:1.0.14 \
+--build-arg GITHUB_PAT={GITHUB_PAT} \
+ .
+  
+docker push odysseusinc/r-env:1.0.14
+```
+
+Changes:
+
+1. Failback to latest version of scikit-learn (0.22.2) that supports deprecated sklearn.externals.joblib.
+It's related to the PatientLevelPrediction issue with python modules.
 
 ## 1.0.13
 
