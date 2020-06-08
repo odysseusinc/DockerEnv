@@ -12,7 +12,7 @@ install_github("OHDSI/DatabaseConnectorJars", ref = "e4a152e", upgrade = "never"
 install_github("OHDSI/DatabaseConnector", ref = "41bc1ae", upgrade = "never")
 install_github("OHDSI/EmpiricalCalibration", ref = "v2.0.1", upgrade = "never")
 install_github("OHDSI/FeatureExtraction", ref = "master", upgrade = "never")
-install_github("OHDSI/OhdsiRTools", ref = "v1.8.0", upgrade = "never")
+install_github("OHDSI/OhdsiRTools", ref = "v1.7.0", upgrade = "never")
 install_github("OHDSI/SqlRender", ref = "168afb3", upgrade = "never")
 install_github("OHDSI/Cyclops", ref = "v2.0.3", upgrade = "never")
 install_github("OHDSI/OhdsiSharing", ref = "v0.1.3", upgrade = "never")
