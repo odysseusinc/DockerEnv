@@ -16,7 +16,7 @@ install_version("sourcetools", version = "0.1.7", type = "source", upgrade_depen
 install_version("stringi", version = "1.3.1", type = "source", upgrade_dependencies = FALSE)
 install_version("stringr", version = "1.4.0", type = "source", upgrade_dependencies = FALSE)
 install_version("survAUC", version = "1.0-5", type = "source", upgrade_dependencies = FALSE)
-install_version("tibble", version = "2.1.1", type = "source", upgrade_dependencies = FALSE)
+install_version("tibble", version = "3.0.1", type = "source", upgrade_dependencies = FALSE)
 install_version("tidyr", version = "1.0.3", type = "source", upgrade_dependencies = FALSE)
 install_version("tidyselect", version = "1.1.0", type = "source", upgrade_dependencies = FALSE)
 install_version("uuid", version = "0.1-4", type = "source", upgrade_dependencies = FALSE)

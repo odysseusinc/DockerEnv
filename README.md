@@ -2,6 +2,22 @@
  
 >Type to get docker build
 
+## 1.0.15
+
+```bash
+# To generate {GITHUB_PAT} 
+# - Open URL 'https://github.com/settings/tokens/new?scopes=repo,gist&description=R:GITHUB_PAT
+# - Generate token and put it in docker build command
+docker build --build-arg GITHUB_PAT={GITHUB_PAT} -t odysseusinc/r-env:1.0.15 .
+  
+docker push odysseusinc/r-env:1.0.15
+```
+
+Changes:
+1. Updated r-java to v4.0.2
+1. Updated Python to v3.8
+1. Updated R library versions and removed duplicated
+
 ## 1.0.14
 
 ```bash
@@ -54,7 +70,7 @@ docker push odysseusinc/r-env:1.0.12
 ## 1.0.11
 
 Changes:
-1. Python 3.6 was added as requied by Prediction analyses
+1. Python 3.6 was added as required by Prediction analyses
 
 ```bash
 docker build -t odysseusinc/r-env:1.0.11 .
@@ -64,9 +80,9 @@ docker push odysseusinc/r-env:1.0.11
 ## 1.0.10
 
 Changes:
-1. SqlRender updated to develop branch resolving BigQuery issues
-1. DatabaseConnector updated to develop branch resolving BigQuery and Redshift issues
-1. MethodEvaluation updated to develop branch which resolves issue for DBs w/o real temporary tables support
+1. SqlRender updated to the develop branch resolving BigQuery issues
+1. DatabaseConnector updated to the develop branch resolving BigQuery and Redshift issues
+1. MethodEvaluation updated to the develop branch which resolves issue for DBs w/o real temporary tables support
 
 ```sh
 docker build -t odysseusinc/r-env:1.0.10 .
@@ -86,7 +102,7 @@ docker push odysseusinc/r-env:1.0.9
 ## 1.0.8
 
 Changes:
-1. DatabaseConnector updated to develop branch resolving RedShift issues
+1. DatabaseConnector updated to the develop branch resolving RedShift issues
 1. SqlRender updated to 1.6.2 release to conform DatabaseConnector dependencies
 
 ```bash

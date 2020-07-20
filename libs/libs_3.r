@@ -8,7 +8,7 @@ install_version("plotly", version = "4.9.2.1", type = "source", upgrade_dependen
 install_version("plyr", version = "1.8.4", type = "source", upgrade_dependencies = FALSE)
 install_version("png", version = "0.1-7", type = "source", upgrade_dependencies = FALSE)
 install_version("purrr", version = "0.3.2", type = "source", upgrade_dependencies = FALSE)
-install_version("PythonInR", version = "0.1-6", type = "source", upgrade_dependencies = FALSE)
+install_version("PythonInR", version = "0.1-12", type = "source", upgrade_dependencies = FALSE)
 install_version("R.methodsS3", version = "1.7.1", type = "source", upgrade_dependencies = FALSE)
 install_version("R.oo", version = "1.21.0", type = "source", upgrade_dependencies = FALSE)
 install_version("R.utils", version = "2.5.0", type = "source", upgrade_dependencies = FALSE)
