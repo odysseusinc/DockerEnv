@@ -18,7 +18,18 @@ install_github("OHDSI/ROhdsiWebApi", ref = "v0.0.3", upgrade = "never")
 install_github("OHDSI/CohortDiagnostics", ref = "1e65c04", upgrade = "never")
 install_github("OHDSI/MethodEvaluation", ref = "v2.0.0", upgrade = "never")
 install_github("OHDSI/PatientLevelPrediction", ref = "v4.0.2", upgrade = "never")
+
+library(PatientLevelPrediction)
+reticulate::install_miniconda()
+configurePython(envname='r-reticulate', envtype='conda')
+
 install_github("rstudio/keras", ref = "95ea0b5", upgrade = "never")
 
 library(keras)
 install_keras()
+
+# For GBM survival
+reticulate::conda_install(envname='r-reticulate', packages = c('scikit-survival'), forge = TRUE, pip = FALSE, pip_ignore_installed = TRUE, conda = "auto", channel = 'sebp')
+
+# For any of the torch models:
+reticulate::conda_install(envname='r-reticulate', packages = c('pytorch', 'torchvision', 'cpuonly'), forge = TRUE, pip = FALSE, channel = 'pytorch', pip_ignore_installed = TRUE, conda = 'auto')

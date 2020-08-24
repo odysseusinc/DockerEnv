@@ -21,8 +21,6 @@ install_version("dplyr", version = "1.0.0", type = "source", upgrade_dependencie
 install_version("DT", version = "0.5", type = "source", upgrade_dependencies = FALSE)
 install_version("evaluate", version = "0.13", type = "source", upgrade_dependencies = FALSE)
 install_version("fastmatch", version = "1.1-0", type = "source", upgrade_dependencies = FALSE)
-install_version("ff", version = "2.2-14", type = "source", upgrade_dependencies = FALSE)
-install_version("ffbase", version = "0.12.8", type = "source", upgrade_dependencies = FALSE)
 install_version("formatR", version = "1.6", type = "source", upgrade_dependencies = FALSE)
 install_version("futile.logger", version = "1.4.3", type = "source", upgrade_dependencies = FALSE)
 install_version("futile.options", version = "1.0.1", type = "source", upgrade_dependencies = FALSE)
