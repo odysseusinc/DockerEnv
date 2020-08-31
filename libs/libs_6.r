@@ -25,4 +25,4 @@ configurePython(envname='PLP', envtype='conda')
 install_github("rstudio/keras", ref = "95ea0b5", upgrade = "never")
 
 library(keras)
-install_keras(method = "conda", envname = "PLP")
+install_keras(method = "conda", envname = "PLP", conda_python_version = "3.8.3")
