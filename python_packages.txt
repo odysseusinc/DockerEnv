@@ -1,8 +1,0 @@
-python3.6_3.6.3-1.deb9u1_amd64
-python3.6-minimal_3.6.3-1.deb9u1_amd64
-python3.6-dev_3.6.3-1.deb9u1_amd64
-libpython3.6_3.6.3-1.deb9u1_amd64
-libpython3.6-minimal_3.6.3-1.deb9u1_amd64
-libpython3.6-stdlib_3.6.3-1.deb9u1_amd64
-libpython3.6-dev_3.6.3-1.deb9u1_amd64
-python3.6-venv_3.6.3-1.deb9u1_amd64
