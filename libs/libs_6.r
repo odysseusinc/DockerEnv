@@ -18,7 +18,7 @@ install_github("OHDSI/SqlRender", ref = "168afb3", upgrade = "never")
 install_github("OHDSI/OhdsiSharing", ref = "v0.1.3", upgrade = "never")
 install_github("OHDSI/ROhdsiWebApi", ref = "v0.0.3", upgrade = "never")
 install_github("OHDSI/CohortDiagnostics", ref = "1e65c04", upgrade = "never")
-install_github("OHDSI/MethodEvaluation", ref = "98ae26e", upgrade = "never")
+install_github("odysseusinc/MethodEvaluation", ref = "67c0760", upgrade = "never")
 install_github("OHDSI/PatientLevelPrediction", ref = "v3.0.16", upgrade = "never")
 
 install_bitbucket("Floooo/PythonInR", upgrade = "never")
