@@ -2,6 +2,22 @@
  
 >Type to get docker build
 
+
+## 1.0.14-patch1
+```bash
+# To generate {GITHUB_PAT} 
+# - Open URL 'https://github.com/settings/tokens/new?scopes=repo,gist&description=R:GITHUB_PAT
+# - Generate token and put it in docker build command
+docker build --build-arg GITHUB_PAT={GITHUB_PAT} -t odysseusinc/r-env:1.0.14-patch1 .
+docker build \
+-t odysseusinc/r-env:1.0.14-patch1 \
+--build-arg GITHUB_PAT={GITHUB_PAT} \
+ .
+  
+docker push odysseusinc/r-env:1.0.14-patch1
+```
+
+
 ## 1.0.14
 
 ```bash
