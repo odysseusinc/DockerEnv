@@ -22,7 +22,7 @@ install_version("dplyr", version = "0.8.3", type = "source", upgrade_dependencie
 install_version("DT", version = "0.5", type = "source", upgrade_dependencies = FALSE)
 install_version("evaluate", version = "0.13", type = "source", upgrade_dependencies = FALSE)
 install_version("fastmatch", version = "1.1-0", type = "source", upgrade_dependencies = FALSE)
-install_version("ff", version = "2.2-14", type = "source", upgrade_dependencies = FALSE)
+install_version("ff", version = "4.0.4", type = "source", upgrade_dependencies = FALSE)
 install_version("ffbase", version = "0.13.1", type = "source", upgrade_dependencies = FALSE) #https://github.com/edwindj/ffbase/issues/59
 install_version("formatR", version = "1.6", type = "source", upgrade_dependencies = FALSE)
 install_version("futile.logger", version = "1.4.3", type = "source", upgrade_dependencies = FALSE)
