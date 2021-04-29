@@ -1,4 +1,4 @@
-FROM odysseusinc/r-java:4.0.2
+FROM odysseusinc/r-java:4.0.5
 
 ARG  GITHUB_PAT
 
@@ -10,13 +10,15 @@ RUN rm -f /usr/bin/python3 && ln -s /usr/bin/python3.8 /usr/bin/python3
 ENV PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig
 RUN ln -s /usr/lib/x86_64-linux-gnu/pkgconfig/python3.pc /usr/lib/x86_64-linux-gnu/pkgconfig/python.pc
 
-RUN python3 -m pip install virtualenv && \
-    python3 -m pip install -U NumPy && \
-    python3 -m pip install -U SciPy && \
-    python3 -m pip install -Iv scikit-learn==0.22.2.post1 && \
-    python3 -m pip install -U torch && \
-    python3 -m pip install --upgrade tensorflow && \
-    python3 -m pip install keras
+RUN python3 -m pip install -U pip
+
+RUN python3 -m pip install virtualenv
+RUN python3 -m pip install -U NumPy
+RUN python3 -m pip install -U SciPy
+RUN python3 -m pip install -U scikit-learn
+RUN python3 -m pip install -U torch
+RUN python3 -m pip install -U tensorflow
+RUN python3 -m pip install keras
 
 ENV USESPECIALPYTHONVERSION=python3.8
 
