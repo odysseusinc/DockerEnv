@@ -17,7 +17,7 @@ install_github("OHDSI/OhdsiSharing", ref = "v0.2.1", upgrade = "never")
 install_github("OHDSI/ROhdsiWebApi", ref = "v0.0.3", upgrade = "never")
 install_github("OHDSI/CohortDiagnostics", ref = "1e65c04", upgrade = "never")
 install_github("OHDSI/MethodEvaluation", ref = "v2.0.0", upgrade = "never")
-install_github("OHDSI/PatientLevelPrediction", ref = "v4.0.2", upgrade = "never")
+install_github("OHDSI/PatientLevelPrediction", ref = "v4.3.7", upgrade = "never")
 
 library(PatientLevelPrediction)
 configurePython(envname='PLP', envtype='conda')
