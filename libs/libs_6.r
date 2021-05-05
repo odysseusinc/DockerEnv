@@ -1,4 +1,3 @@
-.rs.restartR() # Restart session
 library("devtools")
 drat::addRepo(c("OHDSI", "cloudyr"))
 # DO NOT CHANGE ORDER OF THE FOLLOWING INSTRUCTIONS
