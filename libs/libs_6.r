@@ -6,7 +6,7 @@ install_github("OHDSI/ParallelLogger", ref = "v2.0.0", upgrade = "never")
 install_github("OHDSI/BigKnn", ref = "v1.0.0", upgrade = "never")
 install.packages("VennDiagram")
 install_github("rstudio/reticulate", ref = "f17091b", upgrade = "never") # 1.13 per https://github.com/rstudio/keras/issues/869
-install_github("OHDSI/CohortMethod", ref = "v4.0.0", upgrade = "never") # needs to be installed after featureextruction
+install_github("OHDSI/CohortMethod", ref = "v4.0.0", upgrade = "never")
 install_github("OHDSI/DatabaseConnectorJars", ref = "e4a152e", upgrade = "never")
 install_github("OHDSI/DatabaseConnector", ref = "v3.0.0", upgrade = "never")
 install_github("OHDSI/EmpiricalCalibration", ref = "v2.0.2", upgrade = "never")
@@ -20,7 +20,7 @@ install_github("OHDSI/MethodEvaluation", ref = "v2.0.0", upgrade = "never")
 install_github("OHDSI/PatientLevelPrediction", ref = "v4.3.7", upgrade = "never")
 
 library(PatientLevelPrediction)
-configurePython(envname='PLP', envtype='conda', conda_python_version = "3.8.3)
+configurePython(envname='PLP', envtype='conda')
 
 install_github("rstudio/keras", ref = "95ea0b5", upgrade = "never")
 
