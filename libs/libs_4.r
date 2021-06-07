@@ -23,7 +23,7 @@ install_version("tidyselect", version = "1.1.0", type = "source", upgrade_depend
 install_version("uuid", version = "0.1-4", type = "source", upgrade_dependencies = FALSE)
 install_version("viridisLite", version = "0.3.0", type = "source", upgrade_dependencies = FALSE)
 install_github("edwindj/whisker", ref = "6982ab7", upgrade = "never")
-install_version("withr", version = "2.2.0", type = "source", upgrade_dependencies = FALSE)
+install_version("withr", version = "2.4.1", type = "source", upgrade_dependencies = FALSE)
 install_version("xgboost", version = "1.0.0.2", type = "source", upgrade_dependencies = FALSE)
 install_version("xml2", version = "1.3.2", type = "source", upgrade_dependencies = FALSE)
 install_version("xtable", version = "1.8-3", type = "source", upgrade_dependencies = FALSE)
