@@ -19,7 +19,7 @@ install_github("OHDSI/MethodEvaluation", ref = "v2.1.0", upgrade = "never")
 install_github("OHDSI/PatientLevelPrediction", ref = "v4.3.10", upgrade = "never")
 
 library(PatientLevelPrediction)
-reticulate::install_miniconda()
+# reticulate::install_miniconda()
 configurePython(envname='PLP', envtype='conda')
 
 install_github("rstudio/keras", ref = "v2.4.0", upgrade = "never")
