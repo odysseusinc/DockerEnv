@@ -16,7 +16,7 @@ install_github("OHDSI/OhdsiSharing", ref = "v0.2.2", upgrade = "never")
 install_github("OHDSI/ROhdsiWebApi", ref = "v1.2.0", upgrade = "never")
 install_github("OHDSI/CohortDiagnostics", ref = "v2.0.0", upgrade = "never")
 install_github("OHDSI/MethodEvaluation", ref = "v2.1.0", upgrade = "never")
-install_github("OHDSI/PatientLevelPrediction", ref = "v4.3.7", upgrade = "never")
+install_github("OHDSI/PatientLevelPrediction", ref = "v4.3.10", upgrade = "never")
 
 library(PatientLevelPrediction)
 reticulate::install_miniconda()
