@@ -22,6 +22,3 @@ library(PatientLevelPrediction)
 configurePython(envname='PLP', envtype='conda')
 
 install_github("rstudio/keras", ref = "v2.4.0", upgrade = "never")
-
-library(keras)
-install_keras(method = "conda", envname = "PLP", conda_python_version = "3.8.3")
