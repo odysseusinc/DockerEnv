@@ -9,7 +9,7 @@ install_github("rstudio/reticulate", ref = "1aff9d8", upgrade = "never") # 1.13 
 install_github("OHDSI/CohortMethod", ref = "v4.1.0", upgrade = "never")
 install_github("OHDSI/DatabaseConnector", ref = "v4.0.2", upgrade = "never")
 install_github("OHDSI/EmpiricalCalibration", ref = "v2.1.0", upgrade = "never")
-install_github("OHDSI/FeatureExtraction", ref = "v3.1.0", upgrade = "never")
+install_github("OHDSI/FeatureExtraction", ref = "v3.1.1", upgrade = "never")
 install_github("OHDSI/OhdsiRTools", ref = "v1.9.1", upgrade = "never") # 1.8.0 has issues with PLP KNN model
 install_github("OHDSI/SqlRender", ref = "v1.7.0", upgrade = "never")
 install_github("OHDSI/OhdsiSharing", ref = "v0.2.2", upgrade = "never")
