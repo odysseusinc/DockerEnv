@@ -2,6 +2,22 @@
  
 >Type to get docker build
 
+
+## 1.0.16
+
+```bash
+# To generate {GITHUB_PAT} 
+# - Open URL 'https://github.com/settings/tokens/new?scopes=repo,gist&description=R:GITHUB_PAT
+# - Generate token and put it in docker build command
+docker build --build-arg GITHUB_PAT={GITHUB_PAT} -t odysseusinc/r-env:1.0.16 .
+  
+docker push odysseusinc/r-env:1.0.16
+```
+
+Changes:
+1. Updated r-java to v4.1.1
+1. Updated R library versions and removed duplicated
+
 ## 1.0.15
 
 ```bash
