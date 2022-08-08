@@ -19,7 +19,7 @@ install_version("stringr", version = "1.4.0", type = "source", upgrade_dependenc
 install_version("survAUC", version = "1.0-5", type = "source", upgrade_dependencies = FALSE)
 install_version("tibble", version = "3.0.6", type = "source", upgrade_dependencies = FALSE)
 install_version("tidyr", version = "1.1.2", type = "source", upgrade_dependencies = FALSE)
-install_version("tidyselect", version = "1.1.0", type = "source", upgrade_dependencies = FALSE)
+install_version("tidyselect", version = "1.1.2", type = "source", upgrade_dependencies = FALSE)
 install_version("uuid", version = "0.1-4", type = "source", upgrade_dependencies = FALSE)
 install_version("viridisLite", version = "0.3.0", type = "source", upgrade_dependencies = FALSE)
 install_github("edwindj/whisker", ref = "b33dd26", upgrade = "never")
