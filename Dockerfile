@@ -3,7 +3,8 @@ FROM odysseusinc/r-java:4.1.1
 ARG GITHUB_PAT
 
 RUN apt -yq update && DEBIAN_FRONTEND=noninteractive apt install -yq libpq-dev libgit2-dev libssh2-1-dev build-essential git-all libcurl4-openssl-dev libssl-dev libxml2-dev curl\
- libxml2-dev libdigest-hmac-perl libcairo2-dev python-dev libgeos-dev libprotobuf-dev protobuf-compiler libjq-dev sudo dos2unix libharfbuzz-dev libfribidi-dev
+ libxml2-dev libdigest-hmac-perl libcairo2-dev python-dev libgeos-dev libprotobuf-dev protobuf-compiler libjq-dev sudo dos2unix libharfbuzz-dev libfribidi-dev \
+ libopenblas-dev
 
 COPY /miniconda.sh /miniconda.sh
 RUN dos2unix /miniconda.sh
