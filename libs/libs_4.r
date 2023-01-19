@@ -24,6 +24,5 @@ install_version("uuid", version = "1.1-0", type = "source", upgrade_dependencies
 install_version("viridisLite", version = "0.4.1", type = "source", upgrade_dependencies = FALSE)
 install_version("whisker", version = "0.4.0", type = "source", upgrade_dependencies = FALSE)
 install_version("withr", version = "2.5.0", type = "source", upgrade_dependencies = FALSE)
-install_version("xgboost", version = "1.6.0.1", type = "source", upgrade_dependencies = FALSE)
-install_version("xml2", version = "1.3.3", type = "source", upgrade_dependencies = FALSE)
+install_version("xgboost", version = "1.6.0.1", type = "source", upgrade_dependencies = FALSE) 
 install_version("xtable", version = "1.8-4", type = "source", upgrade_dependencies = FALSE)

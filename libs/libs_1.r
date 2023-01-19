@@ -15,7 +15,7 @@ install_version("bitops", version = "1.0-7", type = "source", upgrade_dependenci
 install_version("cli", version = "3.4.1", type = "source", upgrade_dependencies = FALSE)
 install_version("colorspace", version = "2.0-3", type = "source", upgrade_dependencies = FALSE)
 install_version("crosstalk", version = "1.2.0", type = "source", upgrade_dependencies = FALSE)
-install_version("curl", version = "4.3.2", type = "source", upgrade_dependencies = FALSE)
+install_version("curl", version = "4.3.3", type = "source", upgrade_dependencies = FALSE)
 install_version("data.table", version = "1.14.2", type = "source", upgrade_dependencies = FALSE)
 install_version("DBI", version = "1.1.3", type = "source", upgrade_dependencies = FALSE)
 install_version("diagram", version = "1.6.5", type = "source", upgrade_dependencies = FALSE)

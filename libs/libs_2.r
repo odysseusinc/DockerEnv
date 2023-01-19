@@ -23,4 +23,4 @@ install_version("markdown", version = "1.1", type = "source", upgrade_dependenci
 install_version("mime", version = "0.12", type = "source", upgrade_dependencies = FALSE)
 install_version("munsell", version = "0.5.0", type = "source", upgrade_dependencies = FALSE)
 install_version("officer", version = "0.4.4", type = "source", upgrade_dependencies = FALSE)
-install_version("openssl", version = "2.0.3", type = "source", upgrade_dependencies = FALSE)
+install_version("openssl", version = "2.0.4", type = "source", upgrade_dependencies = FALSE)
